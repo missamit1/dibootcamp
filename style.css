@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 40px;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.colors {
+  display: grid;
+  grid-template-columns: 40px;
+  gap: 10px;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(20, 25px);
+  gap: 2px;
+}
+
+.square {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+#resetBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
